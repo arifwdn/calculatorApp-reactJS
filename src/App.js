@@ -136,7 +136,6 @@ function App() {
               setDisplay={setDisplay}
               equation={equation}
               setEquation={setEquation}
-              className="zero"
             />
             <Button
               text="."

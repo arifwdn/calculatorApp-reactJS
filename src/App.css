@@ -4,9 +4,6 @@
   --french-gray: #b4b8c5;
   --silver: #a5a299;
   --taupe-gray: #8d818c;
-  --background-dark: black;
-  --gray-dark: rgb(55, 55, 55);
-  --yellow-dark: rgb(255, 200, 0);
 }
 
 .App {
@@ -20,11 +17,11 @@
 }
 
 .button {
-  background-color: var(--gray-dark);
+  background-color: var(--lavender-web);
   border: none;
-  color: var(--white);
+  color: blac;
   height: 70px;
-  min-width: 70px;
+  width: 70px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -32,15 +29,11 @@
   font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 50%;
-  /* border-radius: 10px; */
-}
-.button:active {
-  background-color: var(--yellow-dark);
+  border-radius: 10px;
 }
 
 .calculator {
-  background-color: var(--background-dark);
+  background-color: var(--taupe-gray);
   border-radius: 5px;
   margin: 0 auto;
   padding: 20px 10px;
@@ -54,7 +47,6 @@
   padding: 10px;
   text-align: right;
   font-size: 2rem;
-  box-shadow: inset 2px 2px 5px black;
 }
 
 .buttonContainer {
